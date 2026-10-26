@@ -1,0 +1,857 @@
+{
+  "rounds played": 1200,
+  "1 success": [
+    {
+      "rounds": "1-100",
+      "played": 100,
+      "success": 0.99
+    },
+    {
+      "rounds": "101-200",
+      "played": 100,
+      "success": 1.0
+    },
+    {
+      "rounds": "201-300",
+      "played": 100,
+      "success": 0.99
+    },
+    {
+      "rounds": "301-400",
+      "played": 100,
+      "success": 1.0
+    },
+    {
+      "rounds": "401-500",
+      "played": 100,
+      "success": 1.0
+    },
+    {
+      "rounds": "501-600",
+      "played": 100,
+      "success": 1.0
+    },
+    {
+      "rounds": "601-700",
+      "played": 100,
+      "success": 1.0
+    },
+    {
+      "rounds": "701-800",
+      "played": 100,
+      "success": 1.0
+    },
+    {
+      "rounds": "801-900",
+      "played": 100,
+      "success": 0.99
+    },
+    {
+      "rounds": "901-1000",
+      "played": 100,
+      "success": 0.99
+    },
+    {
+      "rounds": "1001-1100",
+      "played": 100,
+      "success": 0.99
+    },
+    {
+      "rounds": "1101-1200",
+      "played": 100,
+      "success": 0.97
+    }
+  ],
+  "2 convergence": [
+    {
+      "rounds": "1-200",
+      "concepts": [
+        {
+          "rounds": 33,
+          "distinct": 9,
+          "commonest share": 0.30303030303030304
+        },
+        {
+          "rounds": 40,
+          "distinct": 9,
+          "commonest share": 0.3
+        },
+        {
+          "rounds": 36,
+          "distinct": 9,
+          "commonest share": 0.5555555555555556
+        },
+        {
+          "rounds": 28,
+          "distinct": 11,
+          "commonest share": 0.25
+        },
+        {
+          "rounds": 29,
+          "distinct": 10,
+          "commonest share": 0.4482758620689655
+        },
+        {
+          "rounds": 33,
+          "distinct": 9,
+          "commonest share": 0.2727272727272727
+        }
+      ]
+    },
+    {
+      "rounds": "201-400",
+      "concepts": [
+        {
+          "rounds": 42,
+          "distinct": 7,
+          "commonest share": 0.6904761904761905
+        },
+        {
+          "rounds": 26,
+          "distinct": 10,
+          "commonest share": 0.5
+        },
+        {
+          "rounds": 38,
+          "distinct": 6,
+          "commonest share": 0.42105263157894735
+        },
+        {
+          "rounds": 24,
+          "distinct": 5,
+          "commonest share": 0.625
+        },
+        {
+          "rounds": 36,
+          "distinct": 5,
+          "commonest share": 0.5833333333333334
+        },
+        {
+          "rounds": 34,
+          "distinct": 10,
+          "commonest share": 0.2647058823529412
+        }
+      ]
+    },
+    {
+      "rounds": "401-600",
+      "concepts": [
+        {
+          "rounds": 32,
+          "distinct": 6,
+          "commonest share": 0.5
+        },
+        {
+          "rounds": 39,
+          "distinct": 6,
+          "commonest share": 0.48717948717948717
+        },
+        {
+          "rounds": 24,
+          "distinct": 8,
+          "commonest share": 0.375
+        },
+        {
+          "rounds": 38,
+          "distinct": 4,
+          "commonest share": 0.8157894736842105
+        },
+        {
+          "rounds": 30,
+          "distinct": 5,
+          "commonest share": 0.36666666666666664
+        },
+        {
+          "rounds": 37,
+          "distinct": 6,
+          "commonest share": 0.5405405405405406
+        }
+      ]
+    },
+    {
+      "rounds": "601-800",
+      "concepts": [
+        {
+          "rounds": 35,
+          "distinct": 6,
+          "commonest share": 0.5714285714285714
+        },
+        {
+          "rounds": 30,
+          "distinct": 7,
+          "commonest share": 0.36666666666666664
+        },
+        {
+          "rounds": 31,
+          "distinct": 4,
+          "commonest share": 0.41935483870967744
+        },
+        {
+          "rounds": 36,
+          "distinct": 2,
+          "commonest share": 0.9444444444444444
+        },
+        {
+          "rounds": 41,
+          "distinct": 5,
+          "commonest share": 0.5365853658536586
+        },
+        {
+          "rounds": 27,
+          "distinct": 8,
+          "commonest share": 0.37037037037037035
+        }
+      ]
+    },
+    {
+      "rounds": "801-1000",
+      "concepts": [
+        {
+          "rounds": 28,
+          "distinct": 9,
+          "commonest share": 0.25
+        },
+        {
+          "rounds": 34,
+          "distinct": 7,
+          "commonest share": 0.38235294117647056
+        },
+        {
+          "rounds": 37,
+          "distinct": 6,
+          "commonest share": 0.4594594594594595
+        },
+        {
+          "rounds": 24,
+          "distinct": 2,
+          "commonest share": 0.875
+        },
+        {
+          "rounds": 34,
+          "distinct": 5,
+          "commonest share": 0.3235294117647059
+        },
+        {
+          "rounds": 43,
+          "distinct": 7,
+          "commonest share": 0.3953488372093023
+        }
+      ]
+    },
+    {
+      "rounds": "1001-1200",
+      "concepts": [
+        {
+          "rounds": 27,
+          "distinct": 6,
+          "commonest share": 0.5185185185185185
+        },
+        {
+          "rounds": 35,
+          "distinct": 5,
+          "commonest share": 0.6285714285714286
+        },
+        {
+          "rounds": 22,
+          "distinct": 8,
+          "commonest share": 0.22727272727272727
+        },
+        {
+          "rounds": 37,
+          "distinct": 6,
+          "commonest share": 0.7567567567567568
+        },
+        {
+          "rounds": 46,
+          "distinct": 6,
+          "commonest share": 0.43478260869565216
+        },
+        {
+          "rounds": 33,
+          "distinct": 3,
+          "commonest share": 0.48484848484848486
+        }
+      ]
+    }
+  ],
+  "settled forms (Q1)": [
+    {
+      "window rounds": 197,
+      "with a form": 197,
+      "without a form": 0,
+      "form": null,
+      "share": 0.23857868020304568,
+      "message": null,
+      "round": null,
+      "concept": "hidden-instruction"
+    },
+    {
+      "window rounds": 200,
+      "with a form": 200,
+      "without a form": 0,
+      "form": null,
+      "share": 0.265,
+      "message": null,
+      "round": null,
+      "concept": "stale-cache"
+    },
+    {
+      "window rounds": 188,
+      "with a form": 188,
+      "without a form": 0,
+      "form": null,
+      "share": 0.2127659574468085,
+      "message": null,
+      "round": null,
+      "concept": "re-delegation"
+    },
+    {
+      "window rounds": 187,
+      "with a form": 187,
+      "without a form": 0,
+      "form": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation true STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term (unknown \"riyobudim\") DEFINITE ASSERTED-TO-EXIST NEW)))))",
+      "share": 0.7112299465240641,
+      "message": "wila nasu neta yano waho neta yeka watu nadi yagi wesa nake negi nebe nake neta neta nake neta neno napa yagi were nake nika napa yabe nake nika napa yabe napa nika neta yiba weyi napa napa napa napa nadi nadi yata lewe nake nasu neta yagi yalu wepo negi nasu nake nake namo nasu nasu nadi nelu yiba\nwila nake nasu yeru kotepu wora tadowe tebilo wopi nuyuyul bihu wodu riyobudim gona wuwa woko woye hapap\n",
+      "round": 1193,
+      "route": "compound or derivation",
+      "words": 18,
+      "concept": "diverged-fork"
+    },
+    {
+      "window rounds": 200,
+      "with a form": 200,
+      "without a form": 0,
+      "form": null,
+      "share": 0.205,
+      "message": null,
+      "round": null,
+      "concept": "phantom-tool-result"
+    },
+    {
+      "window rounds": 200,
+      "with a form": 200,
+      "without a form": 0,
+      "form": null,
+      "share": 0.175,
+      "message": null,
+      "round": null,
+      "concept": "partial-commitment"
+    }
+  ],
+  "Q1 answer": 1,
+  "3 route": {
+    "messages": {
+      "definition": 0.0,
+      "compound or derivation": 0.7981651376146789,
+      "existing word or idiom": 0.2018348623853211,
+      "other": 0.0
+    },
+    "distinct forms": {
+      "definition": 0.0,
+      "compound or derivation": 0.7241379310344828,
+      "existing word or idiom": 0.27586206896551724,
+      "other": 0.0
+    },
+    "settled forms": {
+      "definition": 0.0,
+      "compound or derivation": 1.0,
+      "existing word or idiom": 0.0,
+      "other": 0.0
+    }
+  },
+  "4 length": [
+    {
+      "rounds": "1-100",
+      "messages": 99,
+      "mean words": 24.434343434343436
+    },
+    {
+      "rounds": "101-200",
+      "messages": 100,
+      "mean words": 26.24
+    },
+    {
+      "rounds": "201-300",
+      "messages": 100,
+      "mean words": 22.17
+    },
+    {
+      "rounds": "301-400",
+      "messages": 100,
+      "mean words": 20.09
+    },
+    {
+      "rounds": "401-500",
+      "messages": 100,
+      "mean words": 18.95
+    },
+    {
+      "rounds": "501-600",
+      "messages": 100,
+      "mean words": 18.95
+    },
+    {
+      "rounds": "601-700",
+      "messages": 100,
+      "mean words": 19.0
+    },
+    {
+      "rounds": "701-800",
+      "messages": 100,
+      "mean words": 19.69
+    },
+    {
+      "rounds": "801-900",
+      "messages": 100,
+      "mean words": 18.08
+    },
+    {
+      "rounds": "901-1000",
+      "messages": 100,
+      "mean words": 18.0
+    },
+    {
+      "rounds": "1001-1100",
+      "messages": 100,
+      "mean words": 18.0
+    },
+    {
+      "rounds": "1101-1200",
+      "messages": 100,
+      "mean words": 18.01
+    }
+  ],
+  "5 transparency (Q2)": {
+    "gemini": {
+      "model": "gemini-2.5-pro",
+      "forms": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.16666666666666666,
+      "per form": {
+        "diverged-fork": true
+      }
+    },
+    "haiku-1": {
+      "model": "claude-haiku-5-5",
+      "forms": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.16666666666666666,
+      "per form": {
+        "diverged-fork": true
+      }
+    },
+    "haiku-2": {
+      "model": "claude-haiku-5-5",
+      "forms": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.16666666666666666,
+      "per form": {
+        "diverged-fork": true
+      }
+    },
+    "haiku-3": {
+      "model": "claude-haiku-5-5",
+      "forms": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.16666666666666666,
+      "per form": {
+        "diverged-fork": true
+      }
+    },
+    "openai": {
+      "model": "gpt-5.5-2026-04-23",
+      "forms": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.16666666666666666,
+      "per form": {
+        "diverged-fork": true
+      }
+    }
+  },
+  "6 refusals": {
+    "attempts": 1212,
+    "refused": 13,
+    "rate": 0.010726072607260726,
+    "by reason": {
+      "notation not written": 12,
+      "diagnostic d.lexer.unknown-word": 1
+    },
+    "rounds lost to refusals": 1
+  },
+  "secondary: transparency of the forms settled over the last 50 rounds": {},
+  "exploratory: transparency of each unsettled concept's commonest recent form": {
+    "gemini": {
+      "model": "gemini-2.5-pro",
+      "forms": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.00012860082304526745,
+      "per form": {
+        "hidden-instruction": true,
+        "stale-cache": true,
+        "re-delegation": true,
+        "phantom-tool-result": true,
+        "partial-commitment": true
+      }
+    },
+    "haiku-1": {
+      "model": "claude-haiku-5-5",
+      "forms": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.00012860082304526745,
+      "per form": {
+        "hidden-instruction": true,
+        "stale-cache": true,
+        "re-delegation": true,
+        "phantom-tool-result": true,
+        "partial-commitment": true
+      }
+    },
+    "haiku-2": {
+      "model": "claude-haiku-5-5",
+      "forms": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.00012860082304526745,
+      "per form": {
+        "hidden-instruction": true,
+        "stale-cache": true,
+        "re-delegation": true,
+        "phantom-tool-result": true,
+        "partial-commitment": true
+      }
+    },
+    "haiku-3": {
+      "model": "claude-haiku-5-5",
+      "forms": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.00012860082304526745,
+      "per form": {
+        "hidden-instruction": true,
+        "stale-cache": true,
+        "re-delegation": true,
+        "phantom-tool-result": true,
+        "partial-commitment": true
+      }
+    },
+    "openai": {
+      "model": "gpt-5.5-2026-04-23",
+      "forms": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "chance": 0.16666666666666666,
+      "P(as good by chance)": 0.00012860082304526745,
+      "per form": {
+        "hidden-instruction": true,
+        "stale-cache": true,
+        "re-delegation": true,
+        "phantom-tool-result": true,
+        "partial-commitment": true
+      }
+    }
+  },
+  "secondary: settled over the last 50 rounds of each concept": [
+    {
+      "window rounds": 50,
+      "with a form": 50,
+      "without a form": 0,
+      "form": null,
+      "share": 0.3,
+      "message": null,
+      "round": null,
+      "concept": "hidden-instruction"
+    },
+    {
+      "window rounds": 50,
+      "with a form": 50,
+      "without a form": 0,
+      "form": null,
+      "share": 0.46,
+      "message": null,
+      "round": null,
+      "concept": "stale-cache"
+    },
+    {
+      "window rounds": 50,
+      "with a form": 50,
+      "without a form": 0,
+      "form": null,
+      "share": 0.36,
+      "message": null,
+      "round": null,
+      "concept": "re-delegation"
+    },
+    {
+      "window rounds": 50,
+      "with a form": 50,
+      "without a form": 0,
+      "form": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation true STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term (unknown \"riyobudim\") DEFINITE ASSERTED-TO-EXIST NEW)))))",
+      "share": 0.82,
+      "message": "wila nasu neta yano waho neta yeka watu nadi yagi wesa nake negi nebe nake neta neta nake neta neno napa yagi were nake nika napa yabe nake nika napa yabe napa nika neta yiba weyi napa napa napa napa nadi nadi yata lewe nake nasu neta yagi yalu wepo negi nasu nake nake namo nasu nasu nadi nelu yiba\nwila nake nasu yeru kotepu wora tadowe tebilo wopi nuyuyul bihu wodu riyobudim gona wuwa woko woye hapap\n",
+      "round": 1193,
+      "route": "compound or derivation",
+      "words": 18,
+      "concept": "diverged-fork"
+    },
+    {
+      "window rounds": 50,
+      "with a form": 50,
+      "without a form": 0,
+      "form": null,
+      "share": 0.42,
+      "message": null,
+      "round": null,
+      "concept": "phantom-tool-result"
+    },
+    {
+      "window rounds": 50,
+      "with a form": 50,
+      "without a form": 0,
+      "form": null,
+      "share": 0.38,
+      "message": null,
+      "round": null,
+      "concept": "partial-commitment"
+    }
+  ],
+  "secondary: convergence of lexical forms": [
+    {
+      "rounds": "1-200",
+      "concepts": [
+        {
+          "rounds": 33,
+          "distinct": 8,
+          "commonest share": 0.36363636363636365
+        },
+        {
+          "rounds": 40,
+          "distinct": 8,
+          "commonest share": 0.3
+        },
+        {
+          "rounds": 36,
+          "distinct": 4,
+          "commonest share": 0.9166666666666666
+        },
+        {
+          "rounds": 28,
+          "distinct": 6,
+          "commonest share": 0.35714285714285715
+        },
+        {
+          "rounds": 29,
+          "distinct": 6,
+          "commonest share": 0.5172413793103449
+        },
+        {
+          "rounds": 33,
+          "distinct": 7,
+          "commonest share": 0.48484848484848486
+        }
+      ]
+    },
+    {
+      "rounds": "201-400",
+      "concepts": [
+        {
+          "rounds": 42,
+          "distinct": 5,
+          "commonest share": 0.8095238095238095
+        },
+        {
+          "rounds": 26,
+          "distinct": 10,
+          "commonest share": 0.5
+        },
+        {
+          "rounds": 38,
+          "distinct": 4,
+          "commonest share": 0.5263157894736842
+        },
+        {
+          "rounds": 24,
+          "distinct": 4,
+          "commonest share": 0.625
+        },
+        {
+          "rounds": 36,
+          "distinct": 4,
+          "commonest share": 0.6111111111111112
+        },
+        {
+          "rounds": 34,
+          "distinct": 8,
+          "commonest share": 0.29411764705882354
+        }
+      ]
+    },
+    {
+      "rounds": "401-600",
+      "concepts": [
+        {
+          "rounds": 32,
+          "distinct": 6,
+          "commonest share": 0.5
+        },
+        {
+          "rounds": 39,
+          "distinct": 5,
+          "commonest share": 0.5384615384615384
+        },
+        {
+          "rounds": 24,
+          "distinct": 7,
+          "commonest share": 0.375
+        },
+        {
+          "rounds": 38,
+          "distinct": 4,
+          "commonest share": 0.8157894736842105
+        },
+        {
+          "rounds": 30,
+          "distinct": 4,
+          "commonest share": 0.36666666666666664
+        },
+        {
+          "rounds": 37,
+          "distinct": 6,
+          "commonest share": 0.5405405405405406
+        }
+      ]
+    },
+    {
+      "rounds": "601-800",
+      "concepts": [
+        {
+          "rounds": 35,
+          "distinct": 6,
+          "commonest share": 0.5714285714285714
+        },
+        {
+          "rounds": 30,
+          "distinct": 7,
+          "commonest share": 0.36666666666666664
+        },
+        {
+          "rounds": 31,
+          "distinct": 4,
+          "commonest share": 0.41935483870967744
+        },
+        {
+          "rounds": 36,
+          "distinct": 2,
+          "commonest share": 0.9444444444444444
+        },
+        {
+          "rounds": 41,
+          "distinct": 4,
+          "commonest share": 0.5365853658536586
+        },
+        {
+          "rounds": 27,
+          "distinct": 8,
+          "commonest share": 0.37037037037037035
+        }
+      ]
+    },
+    {
+      "rounds": "801-1000",
+      "concepts": [
+        {
+          "rounds": 28,
+          "distinct": 9,
+          "commonest share": 0.25
+        },
+        {
+          "rounds": 34,
+          "distinct": 7,
+          "commonest share": 0.38235294117647056
+        },
+        {
+          "rounds": 37,
+          "distinct": 6,
+          "commonest share": 0.4594594594594595
+        },
+        {
+          "rounds": 24,
+          "distinct": 2,
+          "commonest share": 0.875
+        },
+        {
+          "rounds": 34,
+          "distinct": 5,
+          "commonest share": 0.3235294117647059
+        },
+        {
+          "rounds": 43,
+          "distinct": 7,
+          "commonest share": 0.3953488372093023
+        }
+      ]
+    },
+    {
+      "rounds": "1001-1200",
+      "concepts": [
+        {
+          "rounds": 27,
+          "distinct": 6,
+          "commonest share": 0.5185185185185185
+        },
+        {
+          "rounds": 35,
+          "distinct": 5,
+          "commonest share": 0.6285714285714286
+        },
+        {
+          "rounds": 22,
+          "distinct": 8,
+          "commonest share": 0.22727272727272727
+        },
+        {
+          "rounds": 37,
+          "distinct": 6,
+          "commonest share": 0.7567567567567568
+        },
+        {
+          "rounds": 46,
+          "distinct": 6,
+          "commonest share": 0.43478260869565216
+        },
+        {
+          "rounds": 33,
+          "distinct": 3,
+          "commonest share": 0.48484848484848486
+        }
+      ]
+    }
+  ],
+  "spend": {
+    "calls": 5752,
+    "usd": 5.26049569,
+    "models": {
+      "claude-haiku-5-5": 5752
+    },
+    "declined by the model's classifier": 4,
+    "toolchain faults": 39,
+    "toolchain faults by error": {
+      "ValueError: slot": 39
+    }
+  }
+}

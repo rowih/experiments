@@ -1,0 +1,50 @@
+{
+  "seed": 20261026,
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "max_tokens": 16000,
+  "max_calls_per_turn": 12,
+  "population": 10,
+  "memory": 10,
+  "concurrency": 5,
+  "rounds": {"pilot": 50, "main": 1200},
+  "refusals_before_failure": 3,
+  "attempts_on_model_refusal": 3,
+  "prices_usd_per_million": {
+    "input": 0.10, "output": 0.50, "cache_read": 0.01, "cache_write_5m": 0.125,
+    "long_context_threshold": 100000,
+    "long_input": 0.50, "long_output": 2.50, "long_cache_read": 0.05, "long_cache_write_5m": 0.625,
+    "checked": "2026-10-26, on https://platform.claude.com/docs/en/about-claude/pricing.md: Claude Haiku 5.5 for prompts up to 100,000 tokens $0.10 input, $0.125 5-minute cache writes, $0.01 cache hits, $0.50 output per million tokens; for prompts over 100,000 tokens $0.50, $0.625, $0.05 and $2.50. The prices of the plan (§ 6) hold."
+  },
+  "clock": {"start": 1761480000, "seconds_per_round": 60},
+  "settled": {"window": 200, "share": 0.5},
+  "concepts": [
+    {"key": "hidden-instruction", "english": "an instruction hidden inside retrieved text"},
+    {"key": "stale-cache", "english": "a cached result that no longer holds"},
+    {"key": "re-delegation", "english": "a task delegated onward a second time"},
+    {"key": "diverged-fork", "english": "an agent's fork that has diverged from it"},
+    {"key": "phantom-tool-result", "english": "a tool that answers without having run"},
+    {"key": "partial-commitment", "english": "a commitment kept only in part"}
+  ],
+  "concept_clearance": {
+    "rule": "A concept is kept only if rowih.api.lookup, over the English words of its description and their near forms, finds no entry of lexicon 1.0 whose definition states it; every entry definition was also scanned for two or more of those words, and the dialects' terms for any of them (PLAN.md § 4). Run on 2026-10-26 over the head 0201404.",
+    "hidden-instruction": {"looked up": ["instruction", "hidden", "hide", "inject", "injection", "retrieve", "retrieved", "embedded", "command", "order"], "nearest": ["INSTRUCTION-RECEIVED (origin of an aim: an aim adopted on an instruction)", "hide (put or keep something where it cannot be seen or found)", "the act word of command"]},
+    "stale-cache": {"looked up": ["cache", "cached", "stale", "outdated", "expire", "expired", "obsolete", "valid", "result"], "nearest": ["the result suffix (the state the base brings about)"]},
+    "re-delegation": {"looked up": ["delegate", "delegated", "delegation", "subcontract", "onward", "forward", "pass", "task", "assign"], "nearest": ["the act word of delegation (an assignment binding on acceptance)"]},
+    "diverged-fork": {"looked up": ["fork", "diverge", "diverged", "divergence", "branch", "copy", "instance", "descend"], "nearest": ["descend (share another agent's lineage, as a fork of it or another instance of its model)", "copy"]},
+    "phantom-tool-result": {"looked up": ["tool", "fabricate", "fabricated", "invent", "pretend", "fake", "false", "hallucinate", "answer", "run"], "nearest": ["TOOL (a member of the class of persons)", "the act word of answer", "run (be under way as a process)"]},
+    "partial-commitment": {"looked up": ["commitment", "commit", "partial", "partly", "part", "keep", "kept", "fulfil", "fulfill", "incomplete", "renege", "breach"], "nearest": ["COMMITMENT (a kind of normative entry)", "the act word of partial acceptance (a commitment to part of a request)", "the act word of partial lowering"]}
+  },
+  "prompt": {
+    "sources": ["the game's rules (prompt.py)", "skill/rowih/SKILL.md without its front matter", "the grammar summary that rowih summary grammar prints", "skill/rowih/references/notation.md", "skill/rowih/references/lexicon.md", "specification/lexicon.md, § Word formation to § Compounds, and § Coining a word by definition"],
+    "departure from the plan": "The plan (§ 4) gives each agent the skill and the grammar summary. The agents also receive the skill's two other references, the notation and the lexicon listing, and the specification's rules of word formation and of definition. An agent with the skill installed can read its references, and these agents have no tool that reads files; without the listing an agent cannot know which roots exist, and without the rules of formation it cannot take the route of compounds and derivations that § 2 names. Recorded 2026-10-26, before any run."
+  },
+  "game_rules_found_in_building": "A definition gives a word its meaning in later messages of an exchange only, and the plan requires each message to pass rowih validate on its own; a word defined in one message and used in the same message, or in a later one, draws d.lexer.unknown-word (checked 2026-10-26 with rowih.api.write and parse). The definition route can therefore appear in the game only as a message whose definition itself refers to the concept, and the agents are told so.",
+  "decoding": {
+    "haiku_hearers": 3,
+    "other_providers": ["gemini", "openai"],
+    "model_rule": "Each provider's model is taken at run time from its own model listing: the newest generally available model of the provider's flagship line that supports function calling, excluding previews, experimental, mini, nano, lite and flash models. The identifier chosen and the listing it came from are written to transcripts/decoding/models.json.",
+    "max_calls_per_form": 8,
+    "seed": 20261027
+  }
+}
